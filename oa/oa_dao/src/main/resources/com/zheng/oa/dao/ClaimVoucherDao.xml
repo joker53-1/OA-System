@@ -4,8 +4,8 @@
     <resultMap id="claimVoucher" type="ClaimVoucher">
         <id property="id" column="id" javaType="Integer"/>
         <result property="cause" column="cause" javaType="String"/>
-        <result property="creatSn" column="creat_sn" javaType="String"/>
-        <result property="creatTime" column="creat_time" javaType="java.util.Date"/>
+        <result property="createSn" column="create_sn" javaType="String"/>
+        <result property="createTime" column="create_time" javaType="java.util.Date"/>
         <result property="nextDealSn" column="next_deal_sn" javaType="String"/>
         <result property="totalAmount" column="total_amount" javaType="Double"/>
         <result property="status" column="status" javaType="String"/>
